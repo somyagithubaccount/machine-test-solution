@@ -1,5 +1,6 @@
 <template>
   <div id="products" class="container">
+    <h2 class="mt-5">Our Recent Products</h2>
     <div class="form-inline mt-4">
       <input
         class="form-control"
@@ -67,6 +68,10 @@ export default {
 <style scoped>
 * {
   box-sizing: border-box;
+}
+h2 {
+  border-bottom: 1px solid rgb(161, 179, 179);
+  color: darkcyan;
 }
 img {
   width: 100%;
